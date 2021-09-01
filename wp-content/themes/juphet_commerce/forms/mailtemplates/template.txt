@@ -1,0 +1,13 @@
+Hi Admin,
+
+You have a new message in your inbox.
+
+Click the link below.
+
+{link}
+
+_______________________________________________________
+{company}
+
+"Please do not reply to this email. This is only a notification from your website's online forms. To contact the person
+        who filled out your online form, kindly use the email which is inside the form from the link above."

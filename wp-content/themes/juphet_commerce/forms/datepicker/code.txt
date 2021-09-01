@@ -1,0 +1,16 @@
+$('#fixed_date, #dob, #date1, #date2').datepick({
+	  showTrigger: '<img src="../images/calendar.gif" alt="Select date" style="margin-left:5px;" />'
+	 });
+
+	 
+	 
+	 
+// code on field
+<td>From <?php $input->fields('Employment_1_From','width: 225px;','calendar'); ?></td>
+
+
+
+// css if guba ang calender gui
+.ui-widget .datepicker input, select, textarea{
+		padding:0px 0px;
+	}

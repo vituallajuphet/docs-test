@@ -1,0 +1,148 @@
+html {margin:0;padding:0;height:100%;}
+body {font-family: 'Trebuchet Ms', 'sans-serif'; font-size:16px; line-height:1.5em; font-weight:300; color:#090909; margin:0;}
+.clearfix{clear:both;}
+.rounded-corners {-moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px;}
+#container {width: 100%; margin:0; background:#F2F5F7}
+#content {padding: 15px 35px; display: block;}
+#error {color:#ff0303; padding:5px; background:#fff; border:1px solid #ff0303; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px;}
+#success{padding:5px; color:#4ecb24; background:#fff;  text-align:center; border:1px solid #4ecb24; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px;}
+#submitform {float:; margin: auto;}
+#submitform div.field{clear:both; overflow:hidden;}
+#submitform div.f-height{height:57px; vertical-align:middle;}
+#submitform label.block{display:block}
+#submitform .input {width: 100%; float: left; position:relative; margin: 0 0 15px 0; max-width: 48%;}
+#submitform .input2 {width: 100%; float: left; position:relative; margin: 0 0 15px 0; max-width: 33%;}
+#submitform .input3 {width: 100%; float: left; position:relative; margin: 0 0 15px 0; max-width: 5%;}
+#submitform .input4 {width: 100%; float: left; position:relative; margin: 0 0 15px 0; max-width: 93%;}
+#submitform .input5 {width: 100%; float: left; position:relative; margin: 0 0 15px 0; max-width: 45%;}
+#submitform .input6 {width: 100%; float: left; position:relative; margin: 0 0 15px 0; max-width: 38%;}
+#submitform .input7 {width: 100%; float: left; position:relative; margin: 0 0 15px 0; max-width: 62%;}
+#submitform .input8 {width: 100%; float: left; position:relative; margin: 0 0 15px 0; max-width: 17%;}
+#submitform .input9 {width: 100%; float: left; position:relative; margin: 0 0 15px 0; max-width: 83%;}
+#submitform .input10 {width: 100%; float: left; position:relative; margin: 0 0 15px 0; max-width: 20%;}
+#submitform .center {text-align:center!important;}
+#submitform input.error{box-shadow: 0 0 3px #D92800!important; border: 1px solid #D92800!important;}
+#submitform .textarea {width: 100%; margin: 0 0 15px 0; max-width: 100%;}
+#submitform .f-right {float: right;}
+#submitform .f-left{float: left;}
+#submitform input.text, #submitform textarea, #submitform select {font-family: 'Trebuchet Ms', 'sans-serif'; font-weight:300; font-size:16px; padding: 15px 10px; border: 1px solid #cecece; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; width: 100%; float: left; margin: 0; outline: none; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px;}
+#submitform input.file {padding: 4px 4px; border: 1px solid #cecece; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; width: 100%; float: left; margin: 0; outline: none; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px;}
+/* #submitform select{padding:3px 4px} */
+#submitform input[type=text]:focus, #submitform input[type=tel]:focus, #submitform textarea:focus, #submitform select:focus {margin-right: 0px; box-shadow: 0 0 3px #B9ECFD; border: 1px solid #B9ECFD;}
+#submitform input:hover, #submitform textarea:hover , #submitform select:hover {border: 1px solid #B9ECFD; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; transition: all 0.2s ease;}
+#submitform textarea {height: 150px; resize: none;}
+#submitform label.error{display:block; position:absolute; bottom:-20px; right:0; font-size:10px; color:red}
+#submitform span {color:red;}
+#submitform .verification {width: 100%; float: left;}
+#submitform #securiryimage {float: left; margin:0 10px 0 0}
+#submitform .refresh {width: 42px; height: 42px; display: block; float: left; margin: 0 7px; border:0;}
+#submitform #secode {width: 180px; height: 40px; float: left; margin: 0; padding:8px; font-size: 14px;}
+#submitform button {float: right; display: block; width: 125px; background: #73c674; padding:5px 0!important; color: #fff; box-shadow: 0 0 3px #007dbd;
+text-align: center; margin:3px; border:0; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; transition: all 0.2s ease; cursor:pointer; font-family: 'arial'; font-size:20px;-moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px;}
+#submitform button:hover {box-shadow: 0 0 3px #0e460f;}
+#submitform .medButton {width:31%;}
+#submitform .buttonPaypal {float: right; display: block; width: 170px; background: #73c674; padding:5px 0!important; color: #fff; box-shadow: 0 0 3px #007dbd;
+text-align: center; margin:3px; border:0; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; transition: all 0.2s ease; cursor:pointer; font-family: 'arial'; font-size:20px;-moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px;}
+#submitform .buttonPaypal:hover {box-shadow: 0 0 3px #0e460f;}
+#submitform #amount_1 {float:left; width:94%;}
+@media only screen and (min-width : 110px) and (max-width : 319px) {
+	#container {width: 100%; min-width: 0;}
+	#content {padding: 15px 15px 22px 15px;}
+	#error {padding: 5px;}
+	#success{padding: 5px;}
+	#submitform .input {max-width: 100%;}
+	#submitform .input2 {max-width: 100%;}
+	#submitform .input3 {max-width: 9%;}
+	#submitform .input4 {max-width: 91%;}
+	#submitform .input5 {max-width: 42%;}
+	#submitform .input10 {max-width: 100%;}
+	#submitform div.f-height{height:auto;}
+	#submitform .verification {height: auto;}
+	#submitform #securiryimage {float: left;}
+	#submitform #secode {width: 100%; margin: 25px 0;}
+	#submitform button {float: right; width: 125px;}
+	#submitform .medButton {width:65%;}
+	#submitform .buttonPaypal {float:right; width: 170px;}
+	#submitform #amount_1 {float:left; width:93%;}
+}
+@media only screen and (min-width: 320px) and (max-width : 419px) {
+	#container {width: 100%; min-width: 0;}
+	#content {padding: 15px 15px 22px 15px;}
+	#error {padding: 10px;}
+	#success{padding: 10px;}
+	#submitform .input {max-width: 100%;}
+	#submitform .input2 {max-width: 100%;}
+	#submitform .input3 {max-width: 9%;}
+	#submitform .input4 {max-width: 91%;}
+	#submitform .input5 {max-width: 43%;}
+	#submitform .input10 {max-width: 100%;}
+	#submitform div.f-height{height:auto;}
+	#submitform .verification {height: auto;}
+	#submitform #securiryimage {float: left;}
+	#submitform #secode {width: 100%; margin: 25px 0;}
+	#submitform button {float: right;	width: 125px;}
+	#submitform .medButton {width:55%;}
+	#submitform .buttonPaypal {float: right;	width: 170px;}
+	#submitform #amount_1 {float:left; width:94%;}
+}
+@media only screen and (min-width: 420px) and (max-width : 519px) {
+	#container {width: 100%; min-width: 0;}
+	#content {padding: 15px 20px 22px 20px;}
+	#error {padding: 15px;}
+	#success{padding: 15px;}
+	#submitform .input {max-width: 100%;}
+	#submitform .input2 {max-width: 100%;}
+	#submitform .input5 {max-width: 44%;}
+	#submitform .input10 {max-width: 100%;}
+	#submitform .textarea {max-width: 100%;}
+	#submitform .verification {height: auto;}
+	#submitform #securiryimage {float: left;}	
+	#submitform #secode {width: 100%; margin: 25px 0;}
+	#submitform button {float: right; width: 125px;}
+	#submitform .medButton {width:55%;}
+	#submitform .buttonPaypal {float: right; width: 170px;}
+	#submitform #amount_1 {float:left; width:94%;}
+}
+@media only screen and (min-width: 520px) and (max-width : 619px) {
+	#container {width: 100%; min-width: 0;}
+	#content {padding: 15px 22px 22px 22px;}
+	#error {padding: 15px;}
+	#success{padding: 15px;}
+	#submitform .input {max-width: 48%;}
+	#submitform .textarea {max-width: 100%;}
+	#submitform .verification {height: auto;}
+	#submitform #securiryimage {float: left;}	
+	#submitform #secode {width: 180px;}
+	#submitform button {float: right; width: 105px;}
+	#submitform .buttonPaypal {float: right; width: 170px;}
+	#submitform #amount_1 {float:left; width:93%;}
+}
+@media only screen and (min-width: 620px) and (max-width : 819px) {
+	#container {width: 100%; min-width: 0;}
+	#content {padding: 15px 30px 22px 30px;}	
+	#submitform .input {max-width: 48%;}
+	#submitform .textarea {max-width: 100%;}
+}
+#submitform .input12{width: 20%;  float: left; position:relative; margin: 0 0 15px 0; max-width: 100%!important;}
+
+@media only screen and (min-width : 110px) and (max-width : 319px) {
+    #submitform .input12 {max-width: 100%; clear: both;}
+}
+
+@media only screen and (min-width: 320px) and (max-width : 419px) {
+    #submitform .input12 {max-width: 100%; clear: both;}
+}
+
+@media only screen and (min-width: 420px) and (max-width : 519px) {
+    #submitform .input12 {max-width: 100%; clear: both;}
+}
+#submitform select.error, #submitform textarea.error{box-shadow: 0 0 3px #D92800!important; border: 1px solid #D92800!important;}
+label[for="secode"] {
+    display: none !important;
+}
+@media only screen and (min-width: 110px) and (max-width : 700px) {
+.mobi-disp div{display: block; float: none !important; width:100%!important;}
+}
+@media only screen and (min-width: 110px) and (max-width : 600px) {
+.mobi-dispPenalty td{display: block;}
+}

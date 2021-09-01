@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAII,SAJK,AAAA,iBAAiB,CACzB,KAAK,AAAA,cAAc,CAClB,EAAE,AAAA,aAAa,CACd,EAAE,AAAA,MAAM,CACP,GAAG,AAAC,CACH,SAAS,CAAE,eAAe,CAC1B",
+    "sources": [
+        "../../../plugins/woocommerce/assets/css/twenty-twenty-one-admin.scss"
+    ],
+    "names": [],
+    "file": "twenty-twenty-one-admin.min.css"
+}
