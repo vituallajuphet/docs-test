@@ -38,7 +38,7 @@
               </div>
           </div>
           <div class="viewall">
-              <a href="#">View All Products</a>
+              <a href="shop">View All Products</a>
           </div>
       </div>
   </div>
