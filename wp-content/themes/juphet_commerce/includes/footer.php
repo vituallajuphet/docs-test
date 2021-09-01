@@ -53,6 +53,7 @@
   </div>
   </div>
 </div>
+test
     </div>
     <script src='<?php bloginfo('template_url');?>/js/jquery.js'></script>
     <script src='<?php bloginfo('template_url');?>/js/rslider.js'></script>
