@@ -8,20 +8,16 @@
                       Contact Information
                   </h3>
                   <div class="ftr_links">
-                      <a href="">About Us</a>
-                      <a href="">Science & Research</a>
-                      <a href="">Proven Result</a>
+                     <?php wp_nav_menu( array( 'theme_location' => 'secondary') ); ?>
                   </div>
-                  <?php //wp_nav_menu( array( 'theme_location' => 'secondary') ); ?>
+                  
               </div>
               <div class="row-cont">
                   <h3>
                       Customer Service
                   </h3>
                   <div class="ftr_links">
-                      <a href="">Contact Us</a>
-                      <a href="">Shipping & Delivery</a>
-                      <a href="">Return Policy</a>
+                     <?php wp_nav_menu( array( 'theme_location' => 'third') ); ?>
                   </div>
               </div>
               <div class="row-cont">
@@ -29,9 +25,9 @@
                       Follow Us
                   </h3>
                   <div class="ftr_links">
-                      <a href="">Facebook</a>
-                      <a href="">Instagram</a>
-                      <a href="">Twitter</a>
+                      <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                      <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                      <a href="https://www.twitter.com" target="_blank">Twitter</a>
                   </div>
               </div>
               <div class="row-cont">
@@ -39,8 +35,7 @@
                       Legal
                   </h3>
                   <div class="ftr_links">
-                      <a href="">Policies & Practices</a>
-                      <a href="">Terms and Conditions</a>
+                       <?php wp_nav_menu( array( 'theme_location' => 'fourth') ); ?>
                   </div>
               </div>
           </div>
