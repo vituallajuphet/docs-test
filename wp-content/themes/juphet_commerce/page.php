@@ -25,7 +25,7 @@ if(is_front_page()){
 			</main>
 			<?php if(is_front_page()){ ?>
 			<figure>
-				<img src="<?php bloginfo('template_url');?>/images/main_img.png" alt="product image">
+				<img src="<?php bloginfo('template_url');?>/images/main_img.jpg" alt="product image">
 			</figure>
 			<?php } ?>
 		</div>

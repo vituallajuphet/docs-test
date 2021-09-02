@@ -129,8 +129,9 @@
     }
 
     #section1 .sec1_cont {
-        padding: 3rem 15px 5px;
+        padding: 15px 15px 5px;
     }
+
     #navigation .nav_cont {
         padding: 0 15px;
     }
@@ -146,8 +147,12 @@
     }
 
     #main .main_cont main .h1_title {
-        font-size: 32px;
+        font-size: 28px;
         line-height: 36px;
+    }
+
+    #main .main_cont main p{
+        font-size: 17px;
     }
 
     #section2 .sect2_cont p {
@@ -161,27 +166,62 @@
         padding: 40px 15px;
     }
 
+    #navigation .nav_cont{
+        min-height: 88px;
+    }
+    #navigation .nav_cont .logo {
+        width: 173px;
+    }
 
+    #section1 .sec1_cont .row1, #section1 .sec1_cont .row2{
+        background: #fff;
+        width: 100%;
+        padding: 22px;
+        box-shadow: 1px 1px 4px #f4f1f1;
+        margin-bottom: 15px;
+    }
+    #section1 .sec1_cont p {
+        font-size: 14px;
+    }
+    #section1 .sec1_cont h2{
+        font-size: 21px;
+    }
+
+    #section2 .sect2_cont .feature_cont{
+        margin-top: 30px;
+    }
+
+    #section2 .sect2_cont p{
+        font-size: 17px;
+    }
 }
 
 
 @media screen and (max-width: 600px) {
     #header .header__cont{
         justify-content: center;
-        min-height: 72px;
+        min-height: 49px;
     }
     #header .header__cont ul li {
         &:first-child{
             margin-left: 0;
         }
-        width: 32px;
+        width: 24px;
         margin-left: 12px;
     }
 
-    #banner .wrapper .rslides {
-        width: 100%;
+    #header .header__cont ul li a i {
+        width: 32px;
+        height: 30px;
+        font-size: 27px;
         position: relative;
-        margin-left: 0;
+        top: -4px;
+    }
+
+    #banner .wrapper .rslides {
+        position: relative;
+        width: 154%;
+        margin-left: -26%;
     }
 
     #section2 .sect2_cont .feature_cont .product_container{
@@ -215,6 +255,10 @@
     }
     #section2 .sect2_cont h2 {
         font-size: 29px;
+    }
+
+    #section2 .sect2_cont .viewall a{
+        margin: 30px auto 0;
     }
 }
 
