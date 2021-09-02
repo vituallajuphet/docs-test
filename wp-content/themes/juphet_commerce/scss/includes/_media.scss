@@ -33,6 +33,7 @@
     #footer .ftr_top{
         padding: 7rem 15px;
     }
+    
 }
 
 @media screen and (max-width: 1100px) {
@@ -91,14 +92,17 @@
     #footer .ftr_top .ftrtop_cont .row-cont {
         margin-right: 1rem;
         width: 42%;
-        margin: 0 0 3rem;
+        margin: 0 0 26px;
     }
+
+    
 
 }
 
 @media screen and (max-width: 800px) {
     #section1 .sec1_cont p {
         font-size: 16px;
+        line-height: 24px;
     }
 
     
@@ -155,11 +159,12 @@
     }
 
     #main .main_cont main p{
-        font-size: 17px;
+        font-size: 16px;
+        line-height: 26px;
     }
 
     #section2 .sect2_cont p {
-        font-size: 18px;
+        font-size: 15px;
     }
     #section2 .sect2_cont h2 {
         font-size: 36px;
@@ -187,7 +192,8 @@
         font-size: 14px;
     }
     #section1 .sec1_cont h2{
-        font-size: 21px;
+        font-size: 17px;
+        line-height: 23px;
     }
 
     #section2 .sect2_cont .feature_cont{
@@ -195,11 +201,15 @@
     }
 
     #section2 .sect2_cont p{
-        font-size: 17px;
+        font-size: 15px;
+        line-height: 24px;
     }
 
     #section2 .sect2_cont .feature_cont .product_container{
         width: 250px;
+    }
+    #footer .ftr_top .ftrtop_cont .row-cont .ftr_links a{
+        font-size: 15px;
     }
 }
 
@@ -243,7 +253,7 @@
     #footer .ftr_top .ftrtop_cont .row-cont {
         margin-right: 1rem;
         width: 42%;
-        margin: 0 0 3rem;
+        margin: 0 0 15px;
         text-align: center;
     }
 
@@ -258,7 +268,7 @@
         margin: 0 auto;
     }
     #footer .ftr_top {
-        padding: 40px 15px 0;
+        padding: 30px 15px 0;
     }
     #section2 .sect2_cont h2 {
         font-size: 29px;
