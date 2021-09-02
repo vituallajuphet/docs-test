@@ -3,8 +3,8 @@
       <div class="banner_cont">
         <?php if (is_front_page() ) { ?> 
           <ul class="rslides">
-              <li><img src="<?php bloginfo('template_url');?>/images/slider/1.png" alt="woman smiling"></li>
-              <li><img src="<?php bloginfo('template_url');?>/images/slider/2.png" alt="woman smiling"></li>
+              <li><img src="<?php bloginfo('template_url');?>/images/slider/1.jpg" alt="woman smiling"></li>
+              <li><img src="<?php bloginfo('template_url');?>/images/slider/2.jpg" alt="products"></li>
           </ul>
         <?php } else {?>
           <div class="non_ban">
