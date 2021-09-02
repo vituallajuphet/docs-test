@@ -260,6 +260,13 @@
     #section2 .sect2_cont .viewall a{
         margin: 30px auto 0;
     }
+
+    #navigation .nav_cont .logo {
+        width: 138px;
+    }
+    #navigation .nav_cont {
+        min-height: 72px;
+    }
 }
 
 @media screen and (max-width: 570px) {
