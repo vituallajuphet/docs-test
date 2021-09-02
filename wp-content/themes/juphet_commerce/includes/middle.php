@@ -6,14 +6,12 @@
                     <img src="<?php bloginfo('template_url');?>/images/sec1.png" alt="woman smiling">
                 </figure>
                 <div class="row-content">
-                    <h2 class="sec1head1">90% of the Signs of Aging are Within Our Control</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum, numquam, omnis laborum nam fugit, alias odio illo exercitationem reprehenderit eos molestias laboriosam porro? Ea et voluptatem sapiente veniam! Excepturi?</p>
+                    <?php dynamic_sidebar("mid1_info")?>
                 </div>
             </div>
             <div class="row2 animated fadeInLeft delay-500">
                 <div class="row-content">
-                    <h2 class="sec1head2">90% of the Signs of Aging are Within Our Control</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum, numquam, omnis laborum nam fugit, alias odio illo exercitationem reprehenderit eos molestias laboriosam porro? Ea et voluptatem sapiente veniam! Excepturi?</p>
+                    <?php dynamic_sidebar("mid2_info")?>
                 </div>
                 <figure class="fig2">
                     <img src="<?php bloginfo('template_url');?>/images/sec2.png" alt="woman smiling">
@@ -24,8 +22,7 @@
                     <img src="<?php bloginfo('template_url');?>/images/sec3.png" alt="woman smiling">
                 </figure>
                 <div class="row-content">
-                    <h2 class="sec1head3">90% of the Signs of Aging are Within Our Control</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum, numquam, omnis laborum nam fugit, alias odio illo exercitationem reprehenderit eos molestias laboriosam porro? Ea et voluptatem sapiente veniam! Excepturi?</p>
+                    <?php dynamic_sidebar("mid3_info")?>
                 </div>
             </div>
         </div>

@@ -156,16 +156,6 @@ add_action( 'after_setup_theme', 'twentysixteen_content_width', 0 );
 function twentysixteen_widgets_init() {
 
 register_sidebar( array(
-	'name' => __( 'comp_logo', 'twentyten' ),
-	'id' => 'comp_logo',
-	'description' => __( 'This is logo', 'twentyten' ),
-	'before_widget' => '<span class="widget-comp-logo %2$s">',
-	'after_widget' => '</span>',
-	'before_title' => '',
-	'after_title' => '',
-));
-
-register_sidebar( array(
 	'name' => __( 'Banner Information', 'twentyten' ),
 	'id' => 'bnr_info',
 	'description' => __( 'The primary widget area', 'twentyten' ),
@@ -175,7 +165,7 @@ register_sidebar( array(
 	'after_title' => '',
 ) );
 register_sidebar( array(
-	'name' => __( 'Mid Info 1', 'twentyten' ),
+	'name' => __( 'Middle Info 1', 'twentyten' ),
 	'id' => 'mid1_info',
 	'description' => __( 'The primary widget area', 'twentyten' ),
 	'before_widget' => '<div class="widget-container %2$s">',
@@ -185,7 +175,7 @@ register_sidebar( array(
 ));
 
 register_sidebar( array(
-	'name' => __( 'Mid Info 2', 'twentyten' ),
+	'name' => __( 'Middle Info 2', 'twentyten' ),
 	'id' => 'mid2_info',
 	'description' => __( 'The primary widget area', 'twentyten' ),
 	'before_widget' => '<div class="widget-container %2$s">',
@@ -193,6 +183,17 @@ register_sidebar( array(
 	'before_title' => '',
 	'after_title' => '',
 ));
+
+register_sidebar( array(
+	'name' => __( 'Middle Info 3', 'twentyten' ),
+	'id' => 'mid3_info',
+	'description' => __( 'The primary widget area', 'twentyten' ),
+	'before_widget' => '<div class="widget-container %2$s">',
+	'after_widget' => '</div>',
+	'before_title' => '',
+	'after_title' => '',
+));
+
 
 register_sidebar( array(
 	'name' => __( 'Mid2 box1', 'twentyten' ),
