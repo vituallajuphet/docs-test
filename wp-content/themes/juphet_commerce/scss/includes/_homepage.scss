@@ -64,7 +64,7 @@
 
     .toggleNav{
         display: none;
-        font-size: 28px;
+        font-size: 23px;
         cursor: pointer;
     }   
 
@@ -73,6 +73,46 @@
             color:#fff;
             padding: 1rem;
             text-align: right;
+        }
+    }
+
+    .mob_cart_cont{
+        display: none;
+        ul {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            li{
+                position: relative;
+                a{
+                    i{
+                        width: 35px;
+                        height: 35px;
+                        color: #58585a;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 23px;
+                    }
+                }
+                .counter{
+                    position: absolute;
+                    display: flex !important;
+                    right: -5px;
+                    top: -3px;
+                    width: 20px;
+                    background: #ec8f4b;
+                    height: 20px;
+                    border-radius: 50%;
+                    text-align: center;
+                    color: #fff;
+                    justify-content: center;
+                    align-content: center;
+                    font-size: 15px;
+                    padding: 0px 0 0;
+                }
+            }
         }
     }
 
@@ -123,6 +163,16 @@
     }
 
     .nav_cont{
+
+        .log_cont{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .togglecont{
+            margin-right: 15px;
+        }
+        
         min-height: 100px;
         display: flex;
         justify-content: space-between;

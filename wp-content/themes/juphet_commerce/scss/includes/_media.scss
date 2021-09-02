@@ -60,7 +60,9 @@
 @media screen and (max-width: 1000px) {
    #navigation .toggleNav{display: block;}
    .main_nav_cont{display: none;}
-
+   #navigation .mob_cart_cont{
+        display: block;
+    }
    #main .main_cont figure {
         max-width: 412px;
     }
@@ -91,6 +93,7 @@
         width: 42%;
         margin: 0 0 3rem;
     }
+
 }
 
 @media screen and (max-width: 800px) {

@@ -32,12 +32,14 @@ $(document).ready(function(){
         winWid = $(window).width();
         if(winWid <= 1010){
             $(".mobile_nav .mobile_nav_cont").append($(".nav-menu"));
+            $(".mob_cart_cont ul").append($(".logout-btn, .cart-btn"))
         }else{
             $(".main_nav_cont").append($(".nav-menu"));
             $(".toggleNav span i").removeClass("fa-times").addClass("fa-bars")
             $(".toggleNav").removeClass("shown")
             $(".mobile_nav").removeClass("showntab")
             $(".togglecont").prepend($(".toggleNav"))
+            $(".header__cont ul").append($(".logout-btn, .cart-btn"))
         }
         
     }

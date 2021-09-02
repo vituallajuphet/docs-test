@@ -11,7 +11,7 @@
                 <li>
                     <a href="https://twitter.com" target="_blank"><img src="<?php bloginfo('template_url');?>/images/icons/twitter-icon.png" alt="twitter"></a>
                 </li>
-                <li>
+                <li class='logout-btn'>
                     <a href="<?=site_url("/my-account/logout")?>" target="_blank"><i class="fas fa-sign-out-alt"></i></a>
                 </li>
                 <li class="cart-btn">
