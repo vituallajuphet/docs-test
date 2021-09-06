@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo get_bloginfo('name');?></title>
+	<link rel="shortcut icon" type="image/png" href="<?php bloginfo('template_url');?>/images/favicon.png"/>
 	<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/index.min.css">
 	<?php if(!is_front_page()){ ?>
 	<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/non_home.css">
