@@ -430,6 +430,46 @@ function my_custom_badge(){
    echo $img;
 }
 
+// add_filter( 'woocommerce_product_tabs', 'delete_tab', 98 );
+//     function delete_tab( $tabs ) {
+//     unset($tabs['reviews']);
+//     return $tabs;
+// }
+
+
+
+add_filter( 'woocommerce_product_tabs', 'woo_custom_product_tabs' );
+function woo_custom_product_tabs( $tabs ) {
+
+    unset( $tabs['additional_information'] );   // Remove the additional information tab
+
+    //Attribute Description tab
+    $tabs['ingredients'] = array(
+        'title'     => __( 'Ingredients', 'woocommerce' ),
+        'priority'  => 100,
+        'callback'  => 'woo_attrib_ingredients_tab_content'
+    );
+
+    $tabs['direction'] = array(
+      'title'     => __( 'Directions', 'woocommerce' ),
+      'priority'  => 120,
+      'callback'  => 'woo_attrib_directions_tab_content'
+  );
+
+  $tabs['reviews']['priority'] = 140;
+
+    return $tabs;
+
+}
+
+function woo_attrib_ingredients_tab_content() {
+   the_field('ingredients');
+}
+
+function woo_attrib_directions_tab_content() {
+   the_field('direction');
+}
+
 // TEMPLATE FIX
 add_action( 'after_setup_theme', 'woocommerce_support' );
 function woocommerce_support() {

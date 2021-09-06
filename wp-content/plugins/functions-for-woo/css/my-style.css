@@ -95,7 +95,7 @@ Author: -
 }
 
 .woocommerce .product{
-	overflow:hidden;
+	/* overflow:hidden; */
 }
 
 .woocommerce-loop-product__title{
@@ -1007,7 +1007,7 @@ div#customer_login h2:after
    outline: none !important;
 	transition: all 0.3s ease;
 	color:#fff !important;
-   background: #538c9c !important;
+   background: #58595b !important;
 }
 
 
@@ -1053,7 +1053,7 @@ div#customer_login .button:hover,
 
 {
    transition: all 0.3s ease;
-   color: #538c9c !important;
+   color: #58595b !important;
 }
 
 /* --onhover */
@@ -1062,7 +1062,7 @@ div#customer_login .button:hover,
 .woocommerce div.product .woocommerce-tabs ul.tabs li a:hover
 
 {
-	color: #019C4B !important;
+	color: #999 !important;
 }
 
 /* ############ TEXTS ############ */
@@ -1075,7 +1075,7 @@ div#customer_login .button:hover,
 .woocommerce-info
 
 {
-   border-color: #538c9c !important;
+   border-color: #58595b !important;
 }
 
 /* Icon */
@@ -1084,18 +1084,18 @@ div#customer_login .button:hover,
 .woocommerce-info:before
 
 {
-   color: #538c9c !important;
+   color: #58595b !important;
 }
 
 
 /* SALE badge color */
 .woocommerce span.onsale{
-   background: #538c9c !important;
+   background: #58595b !important;
    color: #fff !important;
 }
 
 .woocommerce span.onsale:after{
-	border-color: #538c9c;
+	border-color: #58595b;
 }
 
 /* SOLD badge color */
@@ -1110,8 +1110,8 @@ div#customer_login .button:hover,
 
 /* CART and SINGLE pages - plus|minus buttons */
 .woocommerce .quantity .quantity_btn:hover{
-	background:#538c9c;
-   border-color: #538c9c;
+	background:#58595b;
+   border-color: #58595b;
 	color: #fff;
 }
 
@@ -1154,7 +1154,7 @@ div#customer_login .button:hover,
 
 .woocommerce ul.products li.product .price, 
 .woocommerce div.product p.price
-{color: #538c9c!important;}
+{color: #58595b!important;}
 
 /*For Reviews*/
 

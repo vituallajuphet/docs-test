@@ -204,6 +204,16 @@ register_sidebar( array(
 	'after_title' => '',
 ));
 
+register_sidebar( array(
+	'name' => __( 'Footer Icon Section', 'twentyten' ),
+	'id' => 'footer_icon_section',
+	'description' => __( 'The primary widget area', 'twentyten' ),
+	'before_widget' => '<div class="widget-container %2$s">',
+	'after_widget' => '</div>',
+	'before_title' => '',
+	'after_title' => '',
+));
+
 }
 add_action( 'widgets_init', 'twentysixteen_widgets_init' );
 

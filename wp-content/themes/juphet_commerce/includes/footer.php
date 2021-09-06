@@ -43,10 +43,9 @@
   </div>
   <div class="ftr_btm">
       <div class="wrapper">
+          <h5 class='ftr_btn_heading'>Our Safety Promise</h5>
           <div class='cop_icons'>
-             <img src="<?php bloginfo('template_url');?>/images/icons/madeinusa.png" alt="Made in USA">
-             <img src="<?php bloginfo('template_url');?>/images/icons/leapingnew.png" alt="Leaping new">
-             <img src="<?php bloginfo('template_url');?>/images/icons/paraben.png" alt="Paraben">
+             <?php dynamic_sidebar('footer_icon_section');?>
           </div>
           Copyright © 2020 Doctors Preferred. All rights reserved. Terms of Use | Privacy Policy
       </div>
