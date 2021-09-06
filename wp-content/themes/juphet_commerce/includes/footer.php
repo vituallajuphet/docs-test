@@ -43,6 +43,11 @@
   </div>
   <div class="ftr_btm">
       <div class="wrapper">
+          <div class='cop_icons'>
+             <img src="<?php bloginfo('template_url');?>/images/icons/madeinusa.png" alt="Made in USA">
+             <img src="<?php bloginfo('template_url');?>/images/icons/leapingnew.png" alt="Leaping new">
+             <img src="<?php bloginfo('template_url');?>/images/icons/paraben.png" alt="Paraben">
+          </div>
           Copyright © 2020 Doctors Preferred. All rights reserved. Terms of Use | Privacy Policy
       </div>
   </div>
