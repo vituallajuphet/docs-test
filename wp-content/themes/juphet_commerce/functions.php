@@ -194,73 +194,9 @@ register_sidebar( array(
 	'after_title' => '',
 ));
 
-
 register_sidebar( array(
-	'name' => __( 'Mid2 box1', 'twentyten' ),
-	'id' => 'mid2_box1',
-	'description' => __( 'The primary widget area', 'twentyten' ),
-	'before_widget' => '<div class="widget-container %2$s">',
-	'after_widget' => '</div>',
-	'before_title' => '',
-	'after_title' => '',
-));
-register_sidebar( array(
-	'name' => __( 'Mid2 box2', 'twentyten' ),
-	'id' => 'mid2_box2',
-	'description' => __( 'The primary widget area', 'twentyten' ),
-	'before_widget' => '<div class="widget-container %2$s">',
-	'after_widget' => '</div>',
-	'before_title' => '',
-	'after_title' => '',
-));
-register_sidebar( array(
-	'name' => __( 'Mid2 box3', 'twentyten' ),
-	'id' => 'mid2_box3',
-	'description' => __( 'The primary widget area', 'twentyten' ),
-	'before_widget' => '<div class="widget-container %2$s">',
-	'after_widget' => '</div>',
-	'before_title' => '',
-	'after_title' => '',
-));
-register_sidebar( array(
-	'name' => __( 'Mid2 box4', 'twentyten' ),
-	'id' => 'mid2_box4',
-	'description' => __( 'The primary widget area', 'twentyten' ),
-	'before_widget' => '<div class="widget-container %2$s">',
-	'after_widget' => '</div>',
-	'before_title' => '',
-	'after_title' => '',
-));
-register_sidebar( array(
-	'name' => __( 'Mid2 box5', 'twentyten' ),
-	'id' => 'mid2_box5',
-	'description' => __( 'The primary widget area', 'twentyten' ),
-	'before_widget' => '<div class="widget-container %2$s">',
-	'after_widget' => '</div>',
-	'before_title' => '',
-	'after_title' => '',
-));
-register_sidebar( array(
-	'name' => __( 'Mid2 box6', 'twentyten' ),
-	'id' => 'mid2_box6',
-	'description' => __( 'The primary widget area', 'twentyten' ),
-	'before_widget' => '<div class="widget-container %2$s">',
-	'after_widget' => '</div>',
-	'before_title' => '',
-	'after_title' => '',
-));
-register_sidebar( array(
-	'name' => __( 'Mid2 box7', 'twentyten' ),
-	'id' => 'mid2_box7',
-	'description' => __( 'The primary widget area', 'twentyten' ),
-	'before_widget' => '<div class="widget-container %2$s">',
-	'after_widget' => '</div>',
-	'before_title' => '',
-	'after_title' => '',
-));
-register_sidebar( array(
-	'name' => __( 'Mid2 box8', 'twentyten' ),
-	'id' => 'mid2_box8',
+	'name' => __( 'Featured Section', 'twentyten' ),
+	'id' => 'featured_section',
 	'description' => __( 'The primary widget area', 'twentyten' ),
 	'before_widget' => '<div class="widget-container %2$s">',
 	'after_widget' => '</div>',
@@ -268,20 +204,6 @@ register_sidebar( array(
 	'after_title' => '',
 ));
 
-
-
-
-
-
-register_sidebar( array(
-	'name' => __( 'Contact Information', 'twentyten' ),
-	'id' => 'contact_info',
-	'description' => __( 'The primary widget area', 'twentyten' ),
-	'before_widget' => '<div class="widget-container %2$s">',
-	'after_widget' => '</div>',
-	'before_title' => '',
-	'after_title' => '',
-));
 }
 add_action( 'widgets_init', 'twentysixteen_widgets_init' );
 

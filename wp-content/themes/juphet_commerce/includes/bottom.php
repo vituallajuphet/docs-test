@@ -1,8 +1,7 @@
 <div id="section2">
   <div class="wrapper">
       <div class="sect2_cont animatedParent animateOnce">
-          <h2>Featured Products</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eaque, ratione porro maxime hic iure doloribus nulla numquam.</p>
+          <?php dynamic_sidebar('featured_section');?>
           <div class="feature_cont">
               <div class="product_container animated fadeInUp">
                   <figure>
