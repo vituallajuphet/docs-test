@@ -462,6 +462,13 @@ function woo_custom_product_tabs( $tabs ) {
 
 }
 
+add_filter( 'woocommerce_product_tabs', 'reordered_tabs', 98 );
+function reordered_tabs( $tabs ) {
+    $tabs['reviews']['priority'] = 140;
+ 
+    return $tabs;
+}
+
 function woo_attrib_ingredients_tab_content() {
    the_field('ingredients');
 }
