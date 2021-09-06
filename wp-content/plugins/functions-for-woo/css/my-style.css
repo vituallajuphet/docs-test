@@ -204,6 +204,8 @@ a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart.loading{
 	text-align:left !important;
 	margin: 0 !important;
 	padding: 0 !important;
+	left: -1px;
+	position: relative;
 }
 
 .woocommerce div.product .woocommerce-tabs ul.tabs li{
