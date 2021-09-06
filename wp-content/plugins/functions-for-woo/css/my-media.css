@@ -161,6 +161,11 @@
   .woocommerce-MyAccount-navigation ul li a{
     text-align: center;
   }
+
+  .woocommerce div.product .woocommerce-tabs ul.tabs li{
+    width: 125px;
+    font-size: 11px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
