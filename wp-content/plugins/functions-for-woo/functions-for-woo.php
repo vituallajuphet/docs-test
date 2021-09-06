@@ -444,17 +444,17 @@ function woo_custom_product_tabs( $tabs ) {
     unset( $tabs['additional_information'] );   // Remove the additional information tab
 
     //Attribute Description tab
-    $tabs['ingredients'] = array(
-        'title'     => __( 'Ingredients', 'woocommerce' ),
-        'priority'  => 100,
-        'callback'  => 'woo_attrib_ingredients_tab_content'
-    );
+//     $tabs['ingredients'] = array(
+//         'title'     => __( 'Ingredients', 'woocommerce' ),
+//         'priority'  => 100,
+//         'callback'  => 'woo_attrib_ingredients_tab_content'
+//     );
 
-    $tabs['direction'] = array(
-      'title'     => __( 'Directions', 'woocommerce' ),
-      'priority'  => 120,
-      'callback'  => 'woo_attrib_directions_tab_content'
-  );
+//     $tabs['direction'] = array(
+//       'title'     => __( 'Directions', 'woocommerce' ),
+//       'priority'  => 120,
+//       'callback'  => 'woo_attrib_directions_tab_content'
+//   );
 
   $tabs['reviews']['priority'] = 140;
 
