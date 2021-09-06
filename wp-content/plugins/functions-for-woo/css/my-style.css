@@ -1057,6 +1057,10 @@ div#customer_login .button:hover,
 }
 
 .woocommerce .woocommerce-product-details__short-description p{font-size: 15px!important;line-height: 22px !important;}
+
+.woocommerce div.product div.summary{
+	padding: 0 0 3rem;
+}
 .woocommerce .product_meta{
 	display: none!important;
 }

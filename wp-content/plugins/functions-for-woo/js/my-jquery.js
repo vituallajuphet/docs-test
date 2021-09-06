@@ -6,6 +6,8 @@ Author: 641 (SP Proweaver)
 
 $(document).ready(function(){
 
+	$("form.cart").insertAfter($(".woocommerce .summary.entry-summary .price"))
+
 	$('.sale_tag').on('change', function(){
 		alert('uy');
 		if($('.sale_tag').is(':checked')){
