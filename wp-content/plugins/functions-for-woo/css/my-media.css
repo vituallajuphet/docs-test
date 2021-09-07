@@ -184,6 +184,14 @@
       right: 0 !important;
       padding: 0 0 25px !important;
    }
+
+   .woocommerce #reviews #comments ol.commentlist li img.avatar{
+     float: none;
+     position: static;
+   }
+   .woocommerce #reviews #comments ol.commentlist li .comment-text{
+    margin: 0;
+   }
 }
 
 /* 500px */
