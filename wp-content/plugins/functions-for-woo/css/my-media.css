@@ -192,7 +192,31 @@
    .woocommerce #reviews #comments ol.commentlist li .comment-text{
     margin: 0;
    }
-}
+
+   .woocommerce div.product .woocommerce-tabs .panel{
+      padding: 23px 8px !important;
+   }
+   .woocommerce{
+    padding: 0 !important;
+   }
+
+   .woocommerce #reviews input[type="text"], #reviews input[type="email"]{
+     width: 100%;
+   }
+   .woocommerce div.product div.images.woocommerce-product-gallery{
+     width: 100%;
+   }
+
+   .woocommerce div.product div.images .woocommerce-product-gallery__wrapper{
+     width: 100%;
+     max-width: 100%;
+     margin-bottom: 20px!important;
+   }
+   .woocommerce div.product div.images{
+     margin-bottom: 25px!important;
+   }
+
+    }
 
 /* 500px */
 @media only screen and (max-width: 500px) {
