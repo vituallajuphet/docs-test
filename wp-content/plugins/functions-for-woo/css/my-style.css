@@ -49,11 +49,19 @@ Author: -
 }
 
 .woocommerce div.product .woocommerce-product-rating{
-	margin:1em 0 !important;
+	margin:0 !important;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 }
 
 .woocommerce .star-rating{
    margin: 0 auto !important;
+   float: none!important;
+}
+
+.woocommerce .summary.entry-summary .star-rating{
+	margin: 0  !important; float: none!important;
 }
 
 .woocommerce-loop-product__title{
@@ -97,9 +105,12 @@ Author: -
 .woocommerce .product{
 	/* overflow:hidden; */
 }
+.woocommerce .comment-text .star-rating{
+	margin: 0 0 5px !important;
+}
 
 .woocommerce-loop-product__title{
-	font-size:20px !important;
+	font-size:15px !important;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -1178,6 +1189,29 @@ div#customer_login .button:hover,
     text-align: left;
 }
 
-#reviews .woocommerce-Reviews-title {display: none;}
+.woocommerce .woocommerce-Reviews p{
+	font-size: 15px !important;
+	line-height: 22px !important;
+}
+
+.woocommerce #review_form textarea{
+	resize: none;
+	border: 1px solid #c2bdbd;
+}
+.woocommerce #review_form textarea{
+	resize: none;
+	border: 1px solid #c2bdbd;
+}
+.woocommerce #review_form label{
+	display: block;
+}
+.woocommerce #review_form .required{
+	color: red;
+}
+
+
+
+
+.woocommerce #reviews .woocommerce-Reviews-title {display: none;}
 
 /*************************** ADDITIONAL CSS ****************************/
