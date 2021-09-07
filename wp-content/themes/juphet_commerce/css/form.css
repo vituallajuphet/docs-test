@@ -1,5 +1,9 @@
 .cont-form{}
-.cont-form label{display: block;}
+.cont-form label{
+    display: block;
+    font-size: 14px;
+    color: #111;
+}
 .cont-form input{
     border: 1px solid #bcb5b5;
     font-size: 15px;
