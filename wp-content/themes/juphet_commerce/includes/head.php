@@ -13,6 +13,9 @@
 	<?php if(!is_front_page()){ ?>
 	<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/non_home.css">
 	<?php } ?>
+	<?php if(is_page(45)){ ?>
+	<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/form.css">
+	<?php } ?>
 	<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/lib/rslider.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/lib/animations.css">
 	<?php wp_head(); ?>
