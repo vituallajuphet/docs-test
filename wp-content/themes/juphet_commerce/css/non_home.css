@@ -42,6 +42,12 @@
 
 .banner_cont figure img{display: block;}
 
+#main img.alignright{
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
 
 @media screen and (max-width: 1000px) {
     .banner_cont figure {
@@ -52,6 +58,14 @@
 @media screen and (max-width: 800px) {
     .banner_cont .page_title{
         padding: 20px 10px;
+    }
+    #main img.alignright{
+        display: block;
+        float: none;
+        width: 100%!important;
+        max-width: 400px!important;
+        margin: 0 auto 25px;
+        height: auto;
     }
 }
 

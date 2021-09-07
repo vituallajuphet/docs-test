@@ -47,7 +47,7 @@
           <div class='cop_icons'>
              <?php dynamic_sidebar('footer_icon_section');?>
           </div>
-          Copyright © 2020 Doctors Preferred. All rights reserved. Terms of Use | Privacy Policy
+          Copyright © 2021 Doctors Preferred. All rights reserved. Terms of Use | Privacy Policy
       </div>
   </div>
   </div>

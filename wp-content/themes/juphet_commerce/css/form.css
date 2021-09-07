@@ -1,0 +1,48 @@
+.cont-form{}
+.cont-form label{display: block;}
+.cont-form input{
+    border: 1px solid #bcb5b5;
+    font-size: 15px;
+    padding: 8px;
+    width: 100%;
+    font-family: inherit;
+}
+.cont-form textarea{
+    resize: none;
+    width: 100%;
+    font-family: inherit;
+    border: 1px solid #bcb5b5;
+    font-size: 15px;
+    padding: 8px;
+}
+
+.in-item{
+    width: 48%;
+}
+
+.wpcf7-submit{
+    width: 137px !important;
+    border: 1px solid gray;
+    background: #4d4d4d;
+    color: #fff;
+    padding: 14px 5px !important;
+}
+
+.inner_cont-form{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 650px) {
+    .in-item {
+        width: 100%;
+    }
+    .inner_cont-form {
+        flex-wrap: wrap;
+    }
+
+    .wpcf7-submit{
+        margin-top: 25px;
+    }
+}
