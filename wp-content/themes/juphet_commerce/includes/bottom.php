@@ -29,7 +29,7 @@
                        $thePrice = $product->get_price(); //will give raw price
                     ?>
             <div class="product_container animated fadeInUp <?php echo $delay!=0 ? "delay-".$delay :"";?>">
-               <figure onclick="window.location.href='<?php echo get_permalink($id); ?>'"> <img src="<?php $url =  wp_get_attachment_image_src(get_post_thumbnail_id($post->ID),'full');echo $url[0];  ?>" alt="featured products"> </figure>
+               <a href="<?php echo get_permalink($id); ?>"><figure> <img src="<?php $url =  wp_get_attachment_image_src(get_post_thumbnail_id($post->ID),'full');echo $url[0];  ?>" alt="featured products"> </figure></a>
                <h3><?= the_title();?></h3>
                <span class='prod_price'><?=number_format($thePrice, 2)?></span>
                <?php 
